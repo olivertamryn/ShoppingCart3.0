@@ -25,6 +25,9 @@ namespace MyShoppingCart
             }
             Console.WriteLine("Subtotal:" + "\t\t\t" + cart.GetSubTotal());
             Console.WriteLine("WithVat:" + "\t\t\t" + cart.GetSubTotalVat());
+
+
+
         }
     }
 }

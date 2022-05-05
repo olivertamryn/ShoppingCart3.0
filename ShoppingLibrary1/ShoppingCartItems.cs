@@ -19,13 +19,26 @@ namespace ShoppingLibrary
         }
         public string Name
         {
-            get { return _name; }
-            set { _name = value; }
+            get
+            {
+                return _name;
+            }
+
+            set
+            {
+                _name = value;
+            }
         }
         public double Price
         {
-            get { return _price; }
-            set { _price = value; }
+            get
+            {
+                return _price;
+            }
+            set
+            {
+                _price = value;
+            }
         }
     }
 }
